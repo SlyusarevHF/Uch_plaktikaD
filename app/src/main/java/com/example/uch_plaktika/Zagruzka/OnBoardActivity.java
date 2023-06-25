@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.uch_plaktika.AuthActivity;
+import com.example.uch_plaktika.CreatePassword;
 import com.example.uch_plaktika.R;
 
 import java.util.ArrayList;
@@ -78,7 +79,7 @@ public class OnBoardActivity extends AppCompatActivity {
 
     public void nextBtn(int position) {
         if(position == 2) {
-            Intent auth = new Intent(this, AuthActivity.class);
+            Intent auth = new Intent(this, CreatePassword.class);
             startActivity(auth);
             finish();
         }

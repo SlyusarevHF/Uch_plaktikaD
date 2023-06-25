@@ -25,9 +25,7 @@
         <activity
             android:name=".GetCodeActivity"
             android:exported="false" />
-        <activity
-            android:name=".AuthActivity"
-            android:exported="false" />
+z
         <activity
             android:name=".Zagruzka.OnBoardActivity"
             android:exported="false" />
